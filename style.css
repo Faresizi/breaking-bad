@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url(breaking-bad.png);
+    background-position: no-repeat 4px 50%;
+
+}
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: #454B1B;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 0; left: 0;z-index: 10000;
+   
+
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+   padding: 20px;
+   position: relative;
+}
+.logo{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    position: relative;
+}
+.brea{
+    color: aliceblue;
+}
+.intro{
+    
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.img{
+    height: 300px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #454B1B;
+    color: aliceblue;
+    opacity: 0.8;
+    font-size: x-large;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.vid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: aliceblue;
+    background-color: #454B1B;
+    margin-right: 20px;
+    opacity: 0.9;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.video{
+ display: flex;
+ padding-left: 20px;   
+ border-radius: 10px;
+}
+.footer{
+   height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+     color: aliceblue;
+    
+    
+}
+.list2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+    background-color: aliceblue;
+    font-size: large;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.logo2{
+    display: flex;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
